@@ -1,4 +1,4 @@
-name: Ali Akram
+name: First Workflow
 
 on: 
   push:
@@ -6,11 +6,13 @@ on:
 
 jobs:
   demo:
-    runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
 
-    steps:
-      - name: Greetings
-        run: echo "Hello from Apun"
+   steps:
+     - name: Greetings
+       run: echo "Ali is Here"
 
+      
+  
  
   
