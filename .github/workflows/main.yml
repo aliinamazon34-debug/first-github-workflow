@@ -1,8 +1,8 @@
-name: First Workflow
+name: Ali Akram
 
-on: 
-  push:
-    branches: [ main ]
+on:
+ push:
+   branches: [ main ]
 
 jobs:
   demo:
@@ -10,7 +10,7 @@ jobs:
 
    steps:
      - name: Greetings
-       run: echo "Ali is Here"
+       run: echo "Ali is a good boy"
 
       
   
