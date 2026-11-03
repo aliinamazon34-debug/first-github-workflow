@@ -1,4 +1,4 @@
-name: Ali Akram
+name: Ali
 
 on:
  push:
@@ -10,7 +10,7 @@ jobs:
 
    steps:
      - name: Greetings
-       run: echo "Ali is a good boy"
+       run: echo "Ai is running"
 
       
   
